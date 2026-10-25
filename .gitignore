@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.expo/
+.env
+.DS_Store
+backend/.data/
+
+# Local credentials, build caches, and deployment metadata
+work/
+.wrangler/
+.env.*
+!.env.example
+*.log
+*.pem
+*.jks
+*.keystore
+
+
+# Build/export snapshots are not source code
+/validation-export/
+/task1-water-purifier/
