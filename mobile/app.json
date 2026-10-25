@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Califnco Aqua",
+    "slug": "califnco-aqua",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F4F8FC"
+    },
+    "android": {
+      "package": "com.califnco.aqua",
+      "adaptiveIcon": {
+        "backgroundColor": "#F4F8FC"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "22d91dad-4369-4c75-b0fa-8a063dc1217d"
+      }
+    },
+    "owner": "ishowspeed7"
+  }
+}
