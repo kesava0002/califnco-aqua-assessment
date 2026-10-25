@@ -1,0 +1,24 @@
+name = "califnco-aqua-daily-posts"
+main = "src/index.js"
+compatibility_date = "2026-10-24"
+workers_dev = true
+preview_urls = false
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "MEDIA"
+id = "5efdb958e9d8463dbc7ea99be6c1e6d4"
+
+[triggers]
+crons = ["30 3 * * *"] # 09:00 India Standard Time (Cloudflare cron uses UTC)
+
+[vars]
+META_API_VERSION = "v26.0"
+IG_USER_ID = "17841451928637229"
+PUBLIC_BASE_URL = "https://califnco-aqua-daily-posts.keshavamurthy0002.workers.dev"
+
+[observability]
+enabled = true
+
